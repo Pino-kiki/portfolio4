@@ -1,0 +1,299 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  font-style: normal;
+  font-weight:100;
+  line-height:30px;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+
+.contents0{
+  background-image:url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_header_pink-4704d42ed44908fb061e80afc515a93ab2fcbfd605c2580de486a4d980b2115a.jpg);
+  background-size: contain;
+  height:650px;
+  width:auto;
+  color:white;
+  text-align:center;
+  background-repeat: no-repeat;
+  top:0;
+  bottom:0;
+  background-size:cover;
+  background-position: center bottom;
+}
+
+.container{
+  width:100%;
+  margin:0 auto;
+ }
+
+img.flower-logo{
+  display:inline-block;
+  width:131px;
+  height:auto;
+}
+.container0{
+  padding-top:150px;
+}
+.container0 h1{
+  font-size:20px;
+  margin-top:20px;
+  margin-bottom:160px;
+}
+img.link{
+  display:inline-block;
+  width:165px;
+  height:auto;
+  margin-bottom:30px;
+  margin-right:20px;
+}
+
+
+
+
+.contents1{
+  height:300px;
+}
+.present{
+  float:left;
+  width:33.3333%;
+
+}
+.present img{
+  width:100%;
+  height:auto;
+}
+.icon1{
+  position:relative;
+  margin:0;
+}
+
+.icon1 p {
+  color:white;
+  position:absolute;
+  top:30%;
+  left:10%;
+  right:10%;
+  width:80%;
+}
+.icon1 h2{
+  color:white;
+  position:absolute;
+  top:10%;
+  left:10%;
+  right:10%;
+  width:80%;
+
+}
+
+
+
+
+.contents2{
+  height:300px;
+  color:#3f434a;
+}
+.price{
+  float:left;
+  width:50%;
+}
+
+.icon2{
+  padding:15% 15%;
+  background-color: #F5F5F5;
+  display:inline-block;
+  text-align: center;
+}
+.icon3{
+  padding:15% 15%;
+  display:block;
+  text-align: center;
+  height:300px;
+  background-color:white;
+}
+.price img{
+  display:inline-block;
+  width:50%;
+  height:auto;
+  margin:0 auto;
+}
+.price h2{
+  font-size:20px;
+  display:block;
+}
+.price p{
+  font-size:13px;
+  display:block;
+
+}
+
+
+.contents3 {
+
+  clear:both;
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_flower-1a07674a0e731b035e9344d0b0ec772eb116759368da38dc0b21bec925479009.jpg);
+	background-position: left ;
+	background-repeat: no-repeat;
+	background-size: 50% auto;
+  background-color: rgb(234,213,220);
+  background-attachment: local;
+  width:100%;
+  height:120vh;
+  color:#3f434a;
+  object-fit: cover;
+}
+.textcontext3{
+  text-align:center;
+  padding:80px 50px;
+  padding-left:50%;
+}
+.contents3 h3{
+  font-size:23px;
+  margin-top:50px;
+  margin-bottom:30px;
+}
+.contents3 p{
+  font-size:15px;
+}
+
+
+
+
+
+.contents4 {
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_vase-45bcc89846e1a077353f799e42054251c3e3e570fcc453b8d96282d5df1ad6db.jpg);
+  background-position:  right;
+	background-repeat: no-repeat;
+	background-size: 50% auto;
+  background-color: rgb(231,226,222);
+  background-attachment: local;
+  height:120vh;
+  width:100%;
+  color:#3f434a;
+  object-fit: cover;
+}
+.contents4 h5{
+  display: inline-block;
+  padding: 0.3em 1em;
+  border: solid 2px ;
+  border-radius: 3px;
+}
+.textcontext4{
+  text-align:center;
+  padding:80px 60px;
+  padding-right:50%;
+}
+.contents4 img{
+  width:auto;
+  height:140px;
+  margin:20px 20px;
+}
+
+
+.contents5{
+  height:80vh;
+  color:#3f434a;
+}
+.heading {
+  display:inline-block;
+  text-align: center;
+  padding-left:35%;
+  padding-top:80px;
+  padding-bottom:50px;
+  font-size:26px;
+}
+.lesson{
+  float:left;
+  width:33.3333%;
+  text-align:center;
+}
+.lessonmini{
+  padding:20px;
+}
+.lesson img{
+  width:60px;
+  height:auto;
+}
+.lesson h8{
+  font-size:22px;
+}
+.lesson p{
+  font-size:13px;
+}
+
+.contents6{
+  clear: both;
+  color:#3f434a;
+  background-image:url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_download2-afd5325a6ad7ae095cd1aad7172be40a68704bad0eaae90dbff5e274759345ad.jpg);
+  background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: 50% auto;
+  background-color: rgb(239,223,197);
+  background-attachment: local;
+  width:100%;
+  height:70vh;
+  object-fit: cover;
+
+}
+.contents6 img{
+  width:30%;
+  height:auto;
+  display:block;
+}
+.masaka{
+  padding-top:40px;
+  margin-left:60%;
+
+}
+
+
+footer{
+  height:20vh;
+  background-color: #3F434A;
+  color:white;
+
+}
+.menu{
+	display:flex;
+ justify-content:space-between;
+ margin-left:5%;
+
+}
+
+.menu li{
+    list-style: none;
+    margin: 20px;
+    font-style:normal;
+    font-weight: 700px;
+    font-size: 13px;
+    Line Height:27px;
+}
+.menu img{
+  width:70px;
+  height:auto;
+  margin-left:20%;
+}
+.footer-copyright{
+  background-color: #3F434A;
+  padding-top:40px;
+  font-size:10px;
+	padding-bottom:10%;
+  padding-left:40%;
+}
